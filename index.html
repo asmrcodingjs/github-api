@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASMR CodingJs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="search">
+
+            <input type="text" id="search-input" placeholder="Search for a Github Profile">
+
+            <button id="searchBtn">Search</button>
+
+            <div class="notification">
+                please enter a username
+            </div>
+
+        </div>
+
+        <div class="profile">
+
+            <div class="profile-img">
+
+                <img src="https://avatars.githubusercontent.com/u/1?v=4" id="profileImg">
+
+            </div>
+
+            <div class="profile-info">
+
+                <h2 id="profileName">John Doe</h2>
+                <p id="profileBio">Lorem ipsum.</p>
+
+                <div class="profile-followers">
+
+                    <div class="followers">
+                        <h3>Followers</h3>
+                        <p id="profileFollowers">100</p>
+                    </div>
+
+                    <div class="following">
+                        <h3>Following</h3>
+                        <p id="profileFollowing">100</p>
+                    </div>
+
+                </div>
+
+                <div class="profile-repos">
+                    <h3>Repositories</h3>
+                    <p id="profileRepos">100</p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="repositories">
+            <h2>Repositories</h2>
+
+            <div class="repositories__items">
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
